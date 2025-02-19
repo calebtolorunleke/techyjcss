@@ -1,1 +1,44 @@
-/* element selector */
+/* /* element selector
+.unit{
+    width: 500px;
+    height: 500px;
+    background-color: hotpink;
+    font-size: 40px;
+}
+
+.unit-conversion {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(195, 255, 105);
+    font-size: 2em;
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding: 10px;
+    border: 2px solid black;
+    width: 200px;
+    display: inline;
+}
+
+p{
+
+    border: 2px solid black;
+    display: inline;
+} */
+
+p{
+    color: blue; /* specificity: 0-0-0-1 */
+}
+
+.text {
+    color: green;
+}
+
+#intro {
+    color: red;
+}
